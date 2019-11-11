@@ -1,0 +1,68 @@
+/* Use this stylesheets for to overwrite Reginalds Framework-styles*/
+html {
+    font-family: Open Sans;
+}
+
+.active {
+    background-color: #eceff1;
+}
+
+.welcome-text-width {
+    width: 100%;
+}
+
+@media (min-width:900px) {
+    .welcome-text-width {
+        max-width: 75%;
+    }
+}
+
+.text-reduced {
+    font-size: 0.9em;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+a.footer-links {
+    color: #616161;
+}
+
+a.footer-links:hover {
+    color: #455a64;
+}
+
+a.footer-links:visited {
+    color: #455a64;
+}
+
+a.footer-links:active,
+a.footer-links:focus {
+    color: #455a64;
+}
+
+.pr--bg-image {
+    background-repeat: no-repeat;
+    min-height: 33vh;
+    background-size: cover;
+}
+
+@media (min-width:1600px) {
+    .pr--bg-image {
+        min-height: 66vh;
+    }
+}
+
+p {
+    font-size: 122%;
+}
+
+.padding-the-headline {
+    padding-left: 20px;
+}
+
+@media (min-width:1200px) {
+    .padding-the-headline {
+        padding-left: 40px;
+    }
+}

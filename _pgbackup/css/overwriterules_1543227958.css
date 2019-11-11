@@ -1,0 +1,110 @@
+/* Use this stylesheets for to overwrite Reginalds Framework-styles*/
+.active {
+    background-color: #eceff1;
+}
+
+.welcome-text-width {
+    width: 100%;
+}
+
+@media (min-width:900px) {
+    .welcome-text-width {
+        max-width: 75%;
+    }
+}
+
+.text-reduced {
+    font-size: 0.9em;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+a.footer-links {
+    color: #616161;
+}
+
+a.footer-links:hover {
+    color: #455a64;
+}
+
+a.footer-links:visited {
+    color: #455a64;
+}
+
+a.footer-links:active,
+a.footer-links:focus {
+    color: #455a64;
+}
+
+.pr--bg-image {
+    background-repeat: no-repeat;
+    min-height: 33vh;
+    background-size: cover;
+}
+
+@media (min-width:1600px) {
+    .pr--bg-image {
+        min-height: 66vh;
+    }
+}
+
+p {
+    font-size: 122%;
+}
+
+.padding-the-headline {
+    padding-left: 20px;
+}
+
+@media (min-width:1200px) {
+    .padding-the-headline {
+        padding-left: 40px;
+    }
+}
+
+/* Another adjusting approach for getting the mobile-nav theme light*/
+/* when under viewport size, .mean-container is added to body */
+.mean-container .mean-bar {
+    background: #ffffff;
+}
+
+.mean-container a.meanmenu-reveal {
+    color: #000000;
+}
+
+.mean-container a.meanmenu-reveal span {
+    background: #000000;
+}
+
+.mean-container .mean-nav {
+    background: #ffffff;
+}
+
+.mean-container .mean-nav ul li a {
+    color: #000000;
+    border-top: 1px solid #383838;
+    border-top: 1px solid rgba(0,0,0,0.15);
+}
+
+.mean-container .mean-nav ul li li a {
+    border-top: 1px solid black;
+    border-top: 1px solid rgba(255,255,255,1);
+    opacity: 0.75;
+    filter: alpha(opacity=75);
+}
+
+.mean-container .mean-nav ul li a:hover {
+    background: #252525;
+    background: rgba(255,255,255,0.5);
+}
+
+.mean-container .mean-nav ul li a.mean-expand {
+    background: rgba(255,255,255,0.1);
+    border-left: 1px solid rgba(255,255,255,0.4) !important;
+    border-bottom: 1px solid rgba(255,255,255,0.2) !important;
+}
+
+.mean-container .mean-nav ul li a.mean-expand:hover {
+    background: #eceff1;
+}
