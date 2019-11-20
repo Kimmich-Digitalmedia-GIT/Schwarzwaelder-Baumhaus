@@ -24,8 +24,6 @@ p {
     justify-content: center;
 }
 
-/*Footer Links*/
-
 a.footer-links {
     color: #616161;
 }
@@ -40,25 +38,6 @@ a.footer-links:visited {
 
 a.footer-links:active,
 a.footer-links:focus {
-    color: #455a64;
-}
-
-/*Languages Links*/
-
-a.language-links {
-    color: #616161;
-}
-
-a.language-links:hover {
-    color: #455a64;
-}
-
-a.language-links:visited {
-    color: #455a64;
-}
-
-a.language-links:active,
-a.language-links:focus {
     color: #455a64;
 }
 
